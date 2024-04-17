@@ -6,13 +6,13 @@ import os
 os.system('cls')
 
 print('-'*70)
-print('Estudos de variaveis')
+print('Eentrada de dados')
 print('='*70)
 
 #entrada
 nome = input('Robson: ')
 nascimento = ('07/05/2006: ')
-peso = ('80:')
+peso = ('80Kg:')
 altura = ('1.85: ')
 
 #saida________________________________________________________________________
