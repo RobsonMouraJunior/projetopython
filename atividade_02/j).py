@@ -7,8 +7,18 @@ import os
 os.system('cls')
 
 print('-'*70)
-print('saida de dados')
 print('='*70)
 
-entre_com_tamanho_da_base_1 = float(input('Entre com o tamanho da base:'))
-entre_com_tamanho_da_altura_= float(input('Entre com o tamanho da altura  '))
+#entrada
+lado_1 = float(input('Entre com o lado 1:'))
+lado_2= float(input('Entre com o lado 2:'))
+
+#procesamento
+resultado = (lado_1 * 2) + (lado_2 * 2)
+
+#saida
+print('-'*70)
+print('saida de dados')
+print(f' a Soma das bases dos lados é {resultado} :')
+print('-'*70)
+print('='*70)
