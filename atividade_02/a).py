@@ -19,7 +19,8 @@ multiplicando_3 = float(input('Entre com  o multiplicado'))
 # processamento
 soma = parcela_1 + parcela_2 + parcela_3
 produto = multiplicando_1 * multiplicando_2 * multiplicando_3
-# saida polarizada1
+
+# saida polarizada
 print('saida de dados')
 print('='*70)
 
