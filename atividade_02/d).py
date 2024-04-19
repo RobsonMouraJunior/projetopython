@@ -1,5 +1,8 @@
+#curso de Desenvolvimento de Sistema
+#Turma 0152 (braba)
+#Autor: Robson Moura  
 #Data: 19/04/2024
-#atividade D
+#atividade_02 (D)
 
 
 # Importando as bibliotecas

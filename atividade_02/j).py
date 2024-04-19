@@ -1,4 +1,9 @@
-# import
+#curso de Desenvolvimento de Sistema
+#Turma 0152 (braba)
+#Autor: Robson Moura  
+#Data: 19/04/2024
+#atividade_02 (J)
+
 # biblioteca para interagir o SO
 import os
 
