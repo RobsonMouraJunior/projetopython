@@ -1,8 +1,6 @@
 # import
 # biblioteca para interagir o SO
 import os
-# biblioteca para data e hora do sistema
-import datetime
 
 
 # limapando terminal
