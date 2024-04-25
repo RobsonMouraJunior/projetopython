@@ -15,24 +15,14 @@ print('-'*70)
 print('Estudo de Condicional: Parte 1')
 print('='*70)
 
-#entrada
-<<<<<<< HEAD
-valor = int(input('Digite um número decimal:'))
+numero = float(input('Digite um número:'))
 resposta = ''
 
 #condicional
-if valor % 2 == 0:
-    valor-int(valor)
-=======
-valor = float(input('Digite um número decimal:'))
-resposta = ''
-
-#condicional
-if valor % 1 == 0: 
->>>>>>> 2811b3a7a793a31e37a80be0985ac84154ad4a1c
-    resposta = f'Entrada incorreta, o valor {valor} é um inteiro!'
+if numero % 2 == 0: 
+    resposta = f'O número {numero} é par!'
 else:
-    resposta = f'Entrada  correta, o valor {valor} é um decimal'   
+    resposta = f'O número {numero} é impar'   
 
  #saida
 print('='*70)
