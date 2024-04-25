@@ -16,10 +16,11 @@ print('='*70)
 
 #entrada
 valor = int(input('Digite um número decimal:'))
-resposta = 'valor-int(valor)'
+resposta = ''
 
 #condicional
 if valor % 2 == 0:
+    valor-int(valor)
     resposta = f'Entrada incorreta, o valor {valor} é um inteiro!'
 else:
     resposta = f'Entrada  correta, o valor {valor} é um decimal'   
