@@ -4,9 +4,6 @@
 #Data: 24/04/2024
 
 # biblioteca para interagir o SO
-import os
-
-
 # limapando terminal
 os.system('cls')
 
