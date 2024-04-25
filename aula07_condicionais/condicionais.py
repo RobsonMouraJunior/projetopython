@@ -3,24 +3,33 @@
 #Autor: Robson Moura  
 #Data: 24/04/2024
 
-# biblioteca para interagir o SO
-import os
+#Importando as bibliotecas 
+import os 
 
 
-# limapando terminal
+#Limpando o terminal 
 os.system('cls')
+
 
 print('-'*70)
 print('Estudo de Condicional: Parte 1')
 print('='*70)
 
 #entrada
+<<<<<<< HEAD
 valor = int(input('Digite um número decimal:'))
 resposta = ''
 
 #condicional
 if valor % 2 == 0:
     valor-int(valor)
+=======
+valor = float(input('Digite um número decimal:'))
+resposta = ''
+
+#condicional
+if valor % 1 == 0: 
+>>>>>>> 2811b3a7a793a31e37a80be0985ac84154ad4a1c
     resposta = f'Entrada incorreta, o valor {valor} é um inteiro!'
 else:
     resposta = f'Entrada  correta, o valor {valor} é um decimal'   
