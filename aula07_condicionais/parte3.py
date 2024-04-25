@@ -22,7 +22,7 @@ print('='*70)
  # Igaldade (==)
 if c == d:
     print('-'*70)
-    print(f'{a} é igual {d}')
+    print(f'{c} é igual {d}')
     print('-'*70)
 else:
     print(f'{a} não é igual a {b}') 
