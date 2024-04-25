@@ -31,13 +31,13 @@ else:
 if a != c:
     print('-'*70)      
     print(f'{a} é diferente de {c}')
-    print('=')
+    print('='*70)
 
 # á maior que (>)
 if a > b:
     print('-'*70)
     print(f'{a} é maior que {b}')
-    print('=')
+    print('='*70)
 else:
     print(f'{a} é maior que {b}')
 
@@ -53,14 +53,14 @@ else:
 if a >= b:
     print('-'*70)
     print(f'{a} é maior ou igual a {b}')
-    print('=')
+    print('='*70)
 else:
     print(f'{a} é maior ou igual a {b}')
 # Menor igual a (=<)    
 if a <= b:
     print('-'*70)
     print(f'{a} é menor ou igual a {b}')
-    print('=')
+    print('='*70)
 else:
     print(f'{a} é menor ou igual a {b}')
 print('Fim do pograma')
