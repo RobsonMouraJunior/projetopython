@@ -7,23 +7,36 @@
 import os 
 
 
-#Limpando o terminal 
-os.system('cls')
+#Importando as bibliotecas 
+os.system('cls') 
+
 print('-'*70)
 print('Estudo de Condicional: Operadores lógicos')
 print('='*70)
 
-
-# entrada_Coeficientes da equação quadrática ax^2 + bx + c
+# Coeficientes da equação quadrática ax^2 + bx + c
 a = 1
 b = -6
 c = 5
 
-# Calcula as raízes usando a fórmula de Bhaskara
-x1 = (b + (b**2 - 4*a*c)**0.5) / (2*a)
-x2 = (b - (b**2 - 4*a*c)**0.5) / (2*a)
+# Calcula o discriminante
+delta = b**2 - 4*a*c
 
-# Imprime as raízes calculadas
-print("As raízes da equação quadrática são:")
-print("x' =", x1)
-print("x'' =", x2)
+# Verifica se o discriminante é positivo, negativo ou zero
+if delta > 0:
+    # Calcula as raízes reais distintas usando a fórmula de Bhaskara
+    x1 = (-b + delta**0.5) / (2*a)
+    x2 = (-b - delta**0.5) / (2*a)
+    print("As raízes da equação quadrática são:")
+    print("x' =", x1)
+    print("x'' =", x2)
+elif delta == 0:
+    # Calcula a raiz real única quando o discriminante é zero
+    x = -b / (2*a)
+    print("A equação quadrática tem uma raiz real única:")
+    print("x =", x)
+else:
+    # Não existem raízes reais quando o discriminante é negativo
+    print("A equação quadrática não possui raízes reais.")
+
+#saida
