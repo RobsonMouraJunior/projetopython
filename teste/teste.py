@@ -34,15 +34,14 @@ texto = "Beatriz"
     # Configurações da fonte
 fonte = ("Arial", 60, "normal")
     # Espaçamento entre letras
-espaço_letra = 20
+espaço_letra = 50
 
     # Função para escrever uma letra do texto "Beatriz"
 def escrever_letra(letra_idx):
         if letra_idx < len(texto):
-            # Escreve a próxima letra do texto
-         tartaruga.write(texto[letra_idx], align="left", font = fonte)
+            turtle.write(texto[letra_idx], align="left", font=fonte)
             # Agendando a escrita da próxima letra com um pequeno atraso
-        turtle.ontimer(lambda: escrever_letra(letra_idx + 1), 300)  # Ajuste o tempo conforme desejado
+            turtle.ontimer(lambda: escrever_letra(letra_idx + 1), 300)  # Ajuste o tempo conforme desejado
 
     # Inicia a escrita da primeira letra
 escrever_letra(0)
